@@ -106,7 +106,7 @@ document.querySelector("#book-form").addEventListener('submit', (e) => {
         setTimeout(() => {
             document.getElementById('text-book-added').innerText = ('Add more Book')
 
-        }, 5000);
+        }, 3000);
     }
 })
 
@@ -120,7 +120,7 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
     setTimeout(() => {
         document.getElementById('text-book-added').innerText = ('Add more Book')
 
-    }, 5000);
+    }, 3000);
 })
 
 function clearthestroage() {
